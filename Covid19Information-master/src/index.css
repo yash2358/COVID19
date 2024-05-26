@@ -1,0 +1,89 @@
+.AppContent h3,h4,h1{
+    margin:4px;
+}
+
+.AppContent{
+    display:grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    padding:10px;
+    background-color: #f0e5ed;
+    box-shadow: 1px 1px 4px 4px grey;
+}
+
+.globalInformation{
+    margin:0px;
+}
+
+.countrySelection{
+    margin:0px;
+}
+
+.countrySelector{
+    padding:10px;
+    border-radius: 10px;
+}
+.countrySelector option{
+    font-weight: bold;
+}
+
+.countrySelectorButton{
+    padding:10px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+@media screen and (max-width:685px){
+    .AppContent{
+        grid-template-columns: 1fr;
+    }
+}
+
+.eachLineChart{
+    position:relative;
+    margin:4px;
+    padding:4px;
+    /* border:2px solid #6d6262; */
+    box-shadow: 1px 1px 3px 3px #6d6262;;
+    border-radius: 10px;
+    width:94%;
+    height:440px;
+}
+
+.eachLineChart:hover{
+    box-shadow: 1px 1px 6px 6px #6d6262;
+    border-radius: 40px;
+}
+
+.chartListComponents{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 0px;
+}
+
+@media screen and (max-width:922px){
+    .chartListComponents{
+        grid-template-columns: 1fr;
+    }
+}
+
+.statusSelector{
+    padding:10px;
+    border-radius: 10px;
+}
+
+.statusSelector option{
+    font-weight: bold;
+}
+
+.statusSelectorButton,.monthlyDataGeneratorButton{
+    padding:10px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
